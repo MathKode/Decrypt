@@ -1,5 +1,4 @@
 import Crypteur as cr
-import time
 from larousse_api import larousse
 """
 def verif(ph,mp) :
@@ -66,7 +65,6 @@ def verif(ph,mp) :
         if total > 99 :
             print('FIN')
             imp = False
-    time.sleep(100000)
 Ms = input('Message a crypter : ')
 l = input('Clef : ')
 result = cr.cryptage(str(Ms),str(l))
